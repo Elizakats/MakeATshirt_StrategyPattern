@@ -16,7 +16,7 @@ public class CreditCard implements Payment {
     @Override
     public void paymentMethod(Tshirt tshirt) {
         System.out.println("Pay with Credid/Debit Card:"
-                + (tshirt.getColor().i + tshirt.getFabric().i + tshirt.getSize().i)
+                + (tshirt.getColor().cost + tshirt.getFabric().cost + tshirt.getSize().cost)
                 + " euros");
     }
 

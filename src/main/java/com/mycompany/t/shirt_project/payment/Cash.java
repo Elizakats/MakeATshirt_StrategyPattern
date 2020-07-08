@@ -16,7 +16,7 @@ public class Cash implements Payment {
     @Override
     public void paymentMethod(Tshirt tshirt) {
         System.out.println("Pay with cash: "
-                + (tshirt.getColor().i + tshirt.getFabric().i + tshirt.getSize().i)
+                + (tshirt.getColor().cost + tshirt.getFabric().cost + tshirt.getSize().cost)
                 + " euros");
     }
 

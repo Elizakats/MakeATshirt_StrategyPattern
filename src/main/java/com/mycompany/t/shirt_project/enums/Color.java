@@ -18,10 +18,10 @@ public enum Color {
     INDIGO(6),
     VIOLET(6);
 
-    public int i;
+    public int cost;
 
-    private Color(int i) {
-        this.i = i;
+    private Color(int cost) {
+        this.cost = cost;
     }
 
 }

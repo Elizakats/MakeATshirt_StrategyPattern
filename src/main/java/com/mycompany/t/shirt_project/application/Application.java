@@ -7,12 +7,10 @@ package com.mycompany.t.shirt_project.application;
 
 import com.mycompany.t.shirt_project.Tshirt.CreateTshirt;
 import com.mycompany.t.shirt_project.Tshirt.Tshirt;
-import com.mycompany.t.shirt_project.Tshirt.PayTshirt;
 import com.mycompany.t.shirt_project.Tshirt.PaymentMethods;
 import com.mycompany.t.shirt_project.enums.Color;
 import com.mycompany.t.shirt_project.enums.Fabric;
 import com.mycompany.t.shirt_project.enums.Size;
-import com.mycompany.t.shirt_project.payment.Cash;
 
 /**
  *
@@ -33,12 +31,10 @@ public class Application {
         Size size = t.chooseSize();
 
         Tshirt tshirt = new Tshirt(color, fabric, size);
-        
+
         //Ask user the payment method and print the total price
-        PaymentMethods pay= new PaymentMethods();
+        PaymentMethods pay = new PaymentMethods();
         pay.choosePaymentMethod().tshirtPrice(tshirt);
-
-
 
     }
 

@@ -19,9 +19,9 @@ public enum Size {
     XXL(6),
     XXXL(7);
     
-    public int i;
+    public int cost;
 
-    private Size(int i) {
-        this.i = i;
-    }
+    private Size(int cost) {
+        this.cost = cost;
+    } 
 }

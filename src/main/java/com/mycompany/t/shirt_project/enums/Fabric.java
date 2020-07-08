@@ -19,10 +19,10 @@ public enum Fabric {
     CASHMERE(9),
     SILK(10);
     
-     public int i;
+     public int cost;
 
-    private Fabric(int i) {
-        this.i = i;
+    private Fabric(int cost) {
+        this.cost = cost;
     }
-    
+  
 }

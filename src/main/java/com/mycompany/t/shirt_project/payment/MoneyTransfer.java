@@ -16,7 +16,7 @@ public class MoneyTransfer implements Payment {
     @Override
     public void paymentMethod(Tshirt tshirt) {
         System.out.println("Pay with Money Transfer: "
-                + (tshirt.getColor().i + tshirt.getFabric().i + tshirt.getSize().i)
+                + (tshirt.getColor().cost + tshirt.getFabric().cost + tshirt.getSize().cost)
                 + " euros");
     }
 
